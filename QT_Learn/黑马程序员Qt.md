@@ -703,6 +703,35 @@ QPaintDevice ：
 
 ~~~c
 //需要包含头文件（QPainter、QPen、QBrush）
+以下都在 paintEvent(QPaintEvent*) 中实现
 ~~~
 
 ![CP4.](pic-黑马程序员Qt/CP4、简单绘图直线，圆，填充.png)
+
+
+
+## CP5、手动更新窗口
+
+~~~
+1）手动刷新
+	1- 修改位置后调用 update() 函数进行重绘
+
+2）先画背景在画线
+	【注意】不要在 paintEvent中调用 update() 函数，不然会卡死
+
+
+~~~
+
+
+
+## CP6、QBitmap 和 QPixmap 的区别
+
+~~~
+1）如果给窗口绘图，一定要在 paintEvent(QPaintEvent*) 函数 中进行
+
+2）QBitmap 和 QPixmap 
+	1- QBitmap：用的多
+	2- QPixmap：用的少（只有两个颜色）
+~~~
+
+![](pic-黑马程序员Qt/CP6、bitmap和pixmap区别.png)
