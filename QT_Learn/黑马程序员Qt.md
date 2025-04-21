@@ -672,7 +672,7 @@ QFileDialog::getOpenFileName(this,"open","../","souce(*.cpp *.h);;Text(*.txt);;a
 
 
 
-##CP2、猜数字答案
+## CP2、猜数字答案
 
 ~~~
 讲代码不带着做
@@ -680,7 +680,7 @@ QFileDialog::getOpenFileName(this,"open","../","souce(*.cpp *.h);;Text(*.txt);;a
 
 
 
-##CP3、画背景图
+## CP3、画背景图
 
 ~~~c
 //需要包含头文件（QPainter、QPen、QBrush）
@@ -699,7 +699,7 @@ QPaintDevice ：
 
 
 
-##CP4、简单绘图
+## CP4、简单绘图
 
 ~~~c
 //需要包含头文件（QPainter、QPen、QBrush）
